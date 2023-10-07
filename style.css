@@ -1,0 +1,136 @@
+
+.s{
+    background: linear-gradient(red,green);
+    width: 400px;
+    padding: 40px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 100px;
+
+}
+#Hrl{
+    border-style: none;
+}
+.b1{
+    border: none;
+    transition: all 0.25s ;
+    transition-timing-function: linear;
+    padding: 10px;
+    font-family: sans-serif;
+    align-items: center;
+    position: relative;
+}
+.b1:hover{
+    background-color: whitesmoke;
+}
+
+.b2{
+    border: none;
+    transition: all 0.25s ;
+    transition-timing-function: linear;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.b2:hover{
+    background-color: whitesmoke;
+    transform: scale(1.1);
+}
+.b2:focus{
+    outline: none;
+}
+
+.b1:focus{
+    outline: none;
+}
+a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: rgb(42, 42, 255);
+}
+.reg{
+    border: none;
+    scale: 1.5;
+    transition: all 0.15s linear;
+    font-family: sans-serif;
+}
+.reg:hover{
+    background-color: wheat;
+    transform: scale(1.1);
+}
+.reg:active{
+    transition: all 0.1s linear;
+    transform: scale(1.16);
+    color: blue;
+}
+body{
+    background: linear-gradient(yellowgreen,rgb(219, 5, 166));
+}
+.re{
+    background-color: #000;
+    color: white;
+    border: none;
+    transition: all 0.25s linear;
+    font-family: sans-serif;
+    outline: none;
+}
+.re:hover{
+    transform: scale(1.1);
+    background-color: darkslategray;
+}
+.re:focus{
+    transform: scale(1.1);
+    background-color: darkslategray;
+    border-color: black;
+}
+.non{
+    font-family: sans-serif;
+    color: yellow;
+}
+.sr{
+    font-family: sans-serif;
+}
+.sr1{
+    font-family: sans-serif;
+}
+.p1{
+    font-family: sans-serif;
+}
+.p2{
+    font-family: sans-serif;
+}
+.chi{
+    border: none;
+    cursor: pointer;
+    border-color: #000;
+}
+.chi:active{
+    transition: all 0.13s linear;
+    transform: scale(1.1);
+}
+@import url(script.js);
+body{
+    font-family: sans-serif;
+}
+.h3{
+    color: #ccc;
+}
+
+.eye{
+    position: absolute;
+    left: 740px;
+    bottom: 215px;
+    cursor: pointer;
+    
+}
+.eye1{
+    position: absolute;
+    left: 740px;
+    bottom: 215px;
+    cursor: pointer;
+    display: none;
+}
